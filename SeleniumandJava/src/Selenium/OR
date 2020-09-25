@@ -1,0 +1,2 @@
+Bing.search.id=sb_form_q
+Bing.serch.button.xpath=//label[@for='sb_form_go']

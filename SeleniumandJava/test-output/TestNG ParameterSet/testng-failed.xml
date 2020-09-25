@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TestNG ParameterSet]">
+  <parameter name="p1" value="nevergiveup2020"/>
+  <parameter name="e1" value="studentuser2020@gmail.com"/>
+  <test thread-count="5" name="parmaterTest(failed)">
+    <classes>
+      <class name="testNgpack.Parameter">
+        <methods>
+          <include name="f"/>
+          <include name="BrowserOpen"/>
+          <include name="CloseBrowser"/>
+        </methods>
+      </class> <!-- testNgpack.Parameter -->
+    </classes>
+  </test> <!-- parmaterTest(failed) -->
+</suite> <!-- Failed suite [TestNG ParameterSet] -->

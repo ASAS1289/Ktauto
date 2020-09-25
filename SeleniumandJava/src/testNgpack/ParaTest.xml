@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TestNG ParameterSet" >
+ <parameter name="email1" value="studentuser2020@gmail.com" />
+ <parameter name="Pwsd1" value="nevergiveup2020" />
+   <test name="parmaterTest" >
+   <classes> 
+          <class name="testNgpack.Parameter" />
+         
+       </classes>
+        </test>
+       <test name="DataProviderTest" >
+   <classes> 
+        <class name="testNgpack.DataProviderTest" />
+  
+   </classes>
+     </test>
+ </suite>

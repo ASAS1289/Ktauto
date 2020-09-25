@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="TestNG XML Dependency Suite" >
+   <test name="groupdep" >
+   	<groups>
+   		<dependencies>
+   			<group depends-on= "openbrowser" name= "login"></group>
+   			<group depends-on= "login" name= "viewacc"></group>
+   			<group depends-on= "viewacc" name= "logout"></group>
+   		</dependencies>
+   		</groups>
+       <classes> 
+          <class name="testNgpack.dgroup" />
+       </classes>
+   </test>
+ </suite>
